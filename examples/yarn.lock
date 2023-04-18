@@ -2,14 +2,20 @@
 # yarn lockfile v1
 
 
-"@txo/functional@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.0.0.tgz#28d302511343d4a0ddc21015241042282649feca"
-  integrity sha512-O/R2fp6RhfpmaHsaS8PQ1+IjNLVo2TiMtwX7zIgn5LK0UyVo9yzbcG6xhyKzVMDQ9q4Sl+uuLkHO+CtfTwtxmw==
+"@txo/functional@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.0.tgz#52e8263ac49dc2982d6384eb0583335c1c1e567f"
+  integrity sha512-RXTZBhGINB/4omav8ARje1r6f785d6rwd4V1q+yRFLrbxhKKAFhC6AF7AyVyFScJJB/rLaRppFbCXuC4I4Xl6w==
   dependencies:
-    "@txo/log" "^1.0.0"
+    "@txo/log" "^2.0.1"
+    utility-types "^3.10.0"
 
-"@txo/log@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@txo/log/-/log-1.0.0.tgz#690ddd05fa3568833ebb95a521dd3b2caf23a917"
-  integrity sha512-zEIkfLqEK9mClHcqOAq+PTXg7yWmNmHmNNurJJVtg8gq1ZIb/FJtBRXqWRICkmhQ7RfCnilrclcnFlEhLyvNFw==
+"@txo/log@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.1.tgz#fd96044751a9930cf5136a7248ad8989efce756c"
+  integrity sha512-CC+ZkiTbytuNVqvusQFdp72i1G2MhA5ITohxEMEi0qGLGIzxtYT20vYkoFRC8XPbsZydbu9uVtpH5wA/X/g/eg==
+
+utility-types@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/utility-types/-/utility-types-3.10.0.tgz#ea4148f9a741015f05ed74fd615e1d20e6bed82b"
+  integrity sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==
