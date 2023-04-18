@@ -1,54 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":semanticCommits",
-    ":automergeMinor"
+    "github>technology-studio/renovate-config#71a0a59"
   ],
-  "rangeStrategy": "bump",
-  "reviewers": [
-    "erik-slovak"
-  ],
-  "ignoreReviewers": [
-    "renovate-approve"
-  ],
-  "packageRules": [
-    {
-      "matchDepTypes": [
-        "peerDependencies"
-      ],
-      "semanticCommitType": "fix"
-    },
-    {
-      "groupName": "Typescript packages",
-      "groupSlug": "typescript-packages",
-      "matchPackageNames": [
-        "@types/node",
-        "typescript"
-      ]
-    },
-    {
-      "groupName": "React packages",
-      "groupSlug": "react-packages",
-      "extends": [
-        "packages:react"
-      ],
-      "matchPackageNames": [
-        "@types/react-dom"
-      ]
-    },
-    {
-      "matchDepTypes": [
-        "engines"
-      ],
-      "enabled": false,
-      "major":  {
-        "enabled": true
-      }
-    },
-    {
-      "paths": ["example/package.json"],
-      "enabled": false
-    }
-  ]
+  "reviewers": ["erik-slovak"]
 }
