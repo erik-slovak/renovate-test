@@ -7,21 +7,21 @@
   resolved "https://registry.yarnpkg.com/@txo/flow/-/flow-2.0.0.tgz#fdbeaa12ee42b05c7167ab8fbc4ba0c9a6081b88"
   integrity sha512-+u9XTLDXj7RtMIqHaAOuDkYGwDfG4Dsgw71d/7UKe6VrvWLn+5yLk1tpvyuZQUiI99My/+4hlORh7pYnieDIMw==
 
-"@txo/functional@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-3.0.0.tgz#f3bc5bf740422ba8e24fd878b444b8f7491c26e8"
-  integrity sha512-Z6B3SkAPSk0A8FRC8BRBUezww1bN9sTVjg4+Hjpnr9rG+sfQno/ClY3Kjy5SfxPrpa7FtHmkQhOuNVmzHoICag==
+"@txo/functional@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-3.1.1.tgz#1da00e1fa69fa8c07ad2548239fc705a02ebbfb5"
+  integrity sha512-GJgcSdze+MrZranfuYY10FiE9Yl3owxwggzxSG7tQsnHX1uqm+Jqr9pefTrmYchzr116pOVPApM2jzTV/E37gg==
   dependencies:
     "@txo/flow" "^2.0.0"
     "@txo/log" "^1.0.0"
-    immutability-helper "^3.0.2"
+    immutability-helper "^3.1.1"
 
 "@txo/log@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-1.0.0.tgz#690ddd05fa3568833ebb95a521dd3b2caf23a917"
   integrity sha512-zEIkfLqEK9mClHcqOAq+PTXg7yWmNmHmNNurJJVtg8gq1ZIb/FJtBRXqWRICkmhQ7RfCnilrclcnFlEhLyvNFw==
 
-immutability-helper@^3.0.2:
+immutability-helper@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/immutability-helper/-/immutability-helper-3.1.1.tgz#2b86b2286ed3b1241c9e23b7b21e0444f52f77b7"
   integrity sha512-Q0QaXjPjwIju/28TsugCHNEASwoCcJSyJV3uO1sOIQGI0jKgm9f41Lvz0DZj3n46cNCyAZTsEYoY4C2bVRUzyQ==
